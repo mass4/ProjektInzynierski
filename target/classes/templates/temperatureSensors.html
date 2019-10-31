@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Temperature Sensors list</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}"/>
+
+    <script th:src="@{/webjars/jquery/3.4.1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+
+</head>
+<body>
+<div class="container">
+    <table class="table">
+        <thead>
+        <tr>
+            <td>Id</td>
+            <td>Nazwa</td>
+            <td>Adres</td>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each=" temperatureSensor : ${temperatureSensors}">
+            <td th:text="${temperatureSensor.id}"></td>
+            <td th:text="${temperatureSensor.name}"></td>
+            <td th:text="${temperatureSensor.address}"></td>
+            <td>
+                <a class="btn btn-warning" th:href="${'/sensor/temperature/edit/'+temperatureSensor.id}">Edytuj</a>
+                <a class="btn btn-danger" th:href="${'/sensor/temperature/delete/'+temperatureSensor.id}">Usuń</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="row">
+        <a class="btn btn-primary" href="/sensor/temperature/newSensor">Dodaj nowy czujnik</a>
+    </div><br>
+    <div class="row">
+        <form action="#" th:action="@{/logout}" method="post">
+            <input type="submit" value="Logout"/>
+        </form>
+    </div>
+</div>
+</body>
+</html>
