@@ -1,6 +1,4 @@
 package pl.szymanski.ProjektInzynierski.model;
 
-public class Read {
-
-
+public class SensorReading {
 }
