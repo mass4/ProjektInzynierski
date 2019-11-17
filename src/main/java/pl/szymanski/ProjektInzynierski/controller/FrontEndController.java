@@ -1,4 +1,4 @@
 package pl.szymanski.ProjektInzynierski.controller;
 
-public class TemperatureController {
+public class FrontEndController {
 }
