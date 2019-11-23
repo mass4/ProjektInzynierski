@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @Controller
-public class MoistureController {
+public class BackendMoistureController {
 
     @Autowired
     MoistureSensorRepo moistureSensorRepository;

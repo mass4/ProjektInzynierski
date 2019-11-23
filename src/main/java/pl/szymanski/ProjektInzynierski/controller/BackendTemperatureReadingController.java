@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 @Controller
-public class TemperatureReadingController {
+public class BackendTemperatureReadingController {
 
     @Autowired
     TemperatureReadingRepo temperatureReadingRepo;

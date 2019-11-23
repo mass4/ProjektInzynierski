@@ -10,7 +10,7 @@ import pl.szymanski.ProjektInzynierski.repository.MoistureReadingRepo;
 import java.util.List;
 
 @Controller
-public class MoistureReadingController {
+public class BackendMoistureReadingController {
 
     @Autowired
     MoistureReadingRepo moistureReadingRepo;

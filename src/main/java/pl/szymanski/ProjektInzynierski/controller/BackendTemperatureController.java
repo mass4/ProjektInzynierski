@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @Controller
-public class TemperatureController {
+public class BackendTemperatureController {
 
     @Autowired
     TemperatureSensorRepo temperatureSensorRepository;

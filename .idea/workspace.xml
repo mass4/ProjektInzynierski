@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39df4080-3b26-4e34-96d3-9c5ac8314164" name="Default Changelist" comment="" />
+    <list default="true" id="39df4080-3b26-4e34-96d3-9c5ac8314164" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendMoistureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendMoistureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendMoistureReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendMoistureReadingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureReadingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/FrontEndController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/FrontEndController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/GraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/GraphController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/MoistureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/MoistureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/ReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/ReadingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/TemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/TemperatureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SensorReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SensorReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SingleReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SingleReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/Starter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/GraphController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/GraphController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/MoistureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/MoistureController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/MoistureReadingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/TemperatureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/TemperatureController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/TemperatureReadingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/lineGraph.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/lineGraph.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +47,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,13 +58,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1SqDYRo5MzA77dyxllITxRvmNci" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/testchart" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -81,10 +118,34 @@
       <workItem from="1572352585354" duration="4986000" />
       <workItem from="1572424988594" duration="1169000" />
       <workItem from="1572428712449" duration="33000" />
+      <workItem from="1572526990467" duration="145000" />
+      <workItem from="1572808326702" duration="190000" />
+      <workItem from="1572887231109" duration="629000" />
+      <workItem from="1573839823941" duration="6419000" />
+      <workItem from="1573909028081" duration="4688000" />
+      <workItem from="1573919354686" duration="1564000" />
+      <workItem from="1573991285440" duration="5878000" />
+      <workItem from="1574006490561" duration="3287000" />
+      <workItem from="1574083559052" duration="846000" />
+      <workItem from="1574088358529" duration="52000" />
+      <workItem from="1574097943490" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
