@@ -2,36 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39df4080-3b26-4e34-96d3-9c5ac8314164" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendMoistureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendMoistureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendMoistureReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendMoistureReadingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureReadingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/FrontEndController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/FrontEndController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/GraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/GraphController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/MoistureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/MoistureController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/ReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/ReadingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/TemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/TemperatureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SensorReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SensorReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SingleReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SingleReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ProjektInzynierski.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/Starter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/WebApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/WebApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/config/Config$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/config/Config$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/BackendMoistureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/BackendMoistureController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/BackendMoistureReadingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/BackendMoistureReadingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureReadingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/BackendTemperatureReadingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/GraphController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/GraphController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/MoistureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/MoistureController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/MoistureReadingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/ReadingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/ReadingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/TemperatureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/TemperatureController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/TemperatureReadingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/MoistureReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/MoistureReading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/MoistureSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/MoistureSensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/SensorReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/SensorReading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/SingleReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/SingleReading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/TemperatureReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/TemperatureReading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/TemperatureSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/TemperatureSensor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureSensorRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureSensorRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureSensorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureSensorRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/lineGraph.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/lineGraph.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureSensorRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureSensorRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureSensorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureSensorRepository.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,9 +74,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/testchart" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,6 +136,10 @@
       <workItem from="1574083559052" duration="846000" />
       <workItem from="1574088358529" duration="52000" />
       <workItem from="1574097943490" duration="7000" />
+      <workItem from="1574522310618" duration="214000" />
+      <workItem from="1575323751997" duration="2510000" />
+      <workItem from="1575337930677" duration="192000" />
+      <workItem from="1575338239857" duration="7283000" />
     </task>
     <servers />
   </component>
