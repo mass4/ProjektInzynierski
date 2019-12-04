@@ -72,7 +72,7 @@ public class TemperatureReadingRepo implements TemperatureReadingRepository{
 
         for (TemperatureReading temperatureReading: temperatureReadings){
             for(SensorReading sensorReading:sensorReadings){
-                if(temperatureReading.getName().equals(sensorReading.getName())){
+                if(temperatureReading.getSensor().getName().equals(sensorReading.getName())){
                     Float readValue = temperatureReading.getValue();
                     Date readTime = temperatureReading.getTime();
 

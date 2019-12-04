@@ -2,10 +2,7 @@ package pl.szymanski.ProjektInzynierski.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity(name = "temperaturereading")
@@ -18,16 +15,18 @@ public class TemperatureReading {
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private Date time;
 
-    private String name;
     private float value;
+
+    @OneToOne
+    private TemperatureSensor sensor;
 
     public TemperatureReading() {
     }
 
-    public TemperatureReading(Date time, String name, float value) {
+    public TemperatureReading(Date time, float value, TemperatureSensor sensor) {
         this.time = time;
-        this.name = name;
         this.value = value;
+        this.sensor = sensor;
     }
 
     public Long getId() {
@@ -46,19 +45,19 @@ public class TemperatureReading {
         this.time = time;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public float getValue() {
         return value;
     }
 
     public void setValue(float value) {
         this.value = value;
+    }
+
+    public TemperatureSensor getSensor() {
+        return sensor;
+    }
+
+    public void setSensor(TemperatureSensor sensor) {
+        this.sensor = sensor;
     }
 }

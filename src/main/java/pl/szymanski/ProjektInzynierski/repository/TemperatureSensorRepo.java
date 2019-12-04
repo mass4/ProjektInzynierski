@@ -38,6 +38,7 @@ public class TemperatureSensorRepo implements TemperatureSensorRepository {
     @Override
     @Transactional
     public void deleteSensor(TemperatureSensor temperatureSensor) {
+        entityManager.createQuery("DELETE FROM temperaturereading WHERE sensor_id="+temperatureSensor.getId()).executeUpdate();
         entityManager.remove(temperatureSensor);
     }
 

@@ -11,6 +11,5 @@ import java.util.List;
 public class Starter implements CommandLineRunner {
 
     public void run(String... strings) throws Exception{
-
     }
 }

@@ -72,7 +72,7 @@ public class MoistureReadingRepo implements MoistureReadingRepository {
 
         for (MoistureReading moistureReading: moistureReadings){
             for(SensorReading sensorReading:sensorReadings){
-                if(moistureReading.getName().equals(sensorReading.getName())){
+                if(moistureReading.getSensor().getName().equals(sensorReading.getName())){
                     Float readValue = moistureReading.getValue();
                     Date readTime = moistureReading.getTime();
 

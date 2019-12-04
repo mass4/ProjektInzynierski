@@ -38,6 +38,7 @@ public class MoistureSensorRepo implements MoistureSensorRepository{
     @Override
     @Transactional
     public void deleteSensor(MoistureSensor moistureSensor) {
+        entityManager.createQuery("DELETE FROM moisturereading WHERE sensor_id="+moistureSensor.getId()).executeUpdate();
         entityManager.remove(moistureSensor);
     }
 
