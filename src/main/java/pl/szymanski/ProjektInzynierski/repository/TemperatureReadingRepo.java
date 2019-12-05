@@ -25,33 +25,6 @@ public class TemperatureReadingRepo implements TemperatureReadingRepository{
     private EntityManager entityManager;
 
     @Override
-    public List<TemperatureReading> getAllReadings() {
-        Collection<TemperatureReading> temperatureSensors = entityManager.createQuery("from temperaturereading", TemperatureReading.class).getResultList();
-        return new ArrayList<>(temperatureSensors);
-    }
-
-    @Override
-    public List<TemperatureReading> getReadingsBetween(Date startDate, Date endDate) {
-
-        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String start_date = f.format(startDate.getTime());
-        String end_date = f.format(endDate.getTime());
-
-        Collection<TemperatureReading> temperatureSensors = entityManager.createQuery("from temperaturereading WHERE time >= '"+start_date+"' AND time <= '"+end_date+"'", TemperatureReading.class).getResultList();
-        return new ArrayList<>(temperatureSensors);
-    }
-
-    public List<SensorReading> getAllSensorReadings(){
-        List<SensorReading> sensorReadings;
-
-        List<TemperatureReading> temperatureReadings = getAllReadings();
-        List<TemperatureSensor> temperatureSensors = temperatureSensorRepo.getAllSensors();
-
-        sensorReadings = createSensorReadings(temperatureReadings,temperatureSensors);
-
-        return sensorReadings;
-    }
-
     public List<SensorReading> getSensorReadingsBetween(Date startDate, Date endDate){
         List<SensorReading> sensorReadings;
 
@@ -61,6 +34,16 @@ public class TemperatureReadingRepo implements TemperatureReadingRepository{
         sensorReadings = createSensorReadings(temperatureReadings,temperatureSensors);
 
         return sensorReadings;
+    }
+
+    private List<TemperatureReading> getReadingsBetween(Date startDate, Date endDate) {
+
+        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String start_date = f.format(startDate.getTime());
+        String end_date = f.format(endDate.getTime());
+
+        Collection<TemperatureReading> temperatureSensors = entityManager.createQuery("from temperaturereading WHERE time >= '"+start_date+"' AND time <= '"+end_date+"'", TemperatureReading.class).getResultList();
+        return new ArrayList<>(temperatureSensors);
     }
 
     private List<SensorReading> createSensorReadings(List<TemperatureReading> temperatureReadings, List<TemperatureSensor> temperatureSensors){

@@ -25,33 +25,6 @@ public class MoistureReadingRepo implements MoistureReadingRepository {
     private EntityManager entityManager;
 
     @Override
-    public List<MoistureReading> getAllReadings() {
-        Collection<MoistureReading> moistureSensors = entityManager.createQuery("from moisturereading", MoistureReading.class).getResultList();
-        return new ArrayList<>(moistureSensors);
-    }
-
-    @Override
-    public List<MoistureReading> getReadingsBetween(Date startDate, Date endDate) {
-
-        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String start_date = f.format(startDate.getTime());
-        String end_date = f.format(endDate.getTime());
-
-        Collection<MoistureReading> moistureSensors = entityManager.createQuery("from moisturereading WHERE time >= '"+start_date+"' AND time <= '"+end_date+"'", MoistureReading.class).getResultList();
-        return new ArrayList<>(moistureSensors);
-    }
-
-    public List<SensorReading> getAllSensorReadings(){
-        List<SensorReading> sensorReadings;
-
-        List<MoistureReading> moistureReadings = getAllReadings();
-        List<MoistureSensor> moistureSensors = moistureSensorRepo.getAllSensors();
-
-        sensorReadings = createSensorReadings(moistureReadings,moistureSensors);
-
-        return sensorReadings;
-    }
-
     public List<SensorReading> getSensorReadingsBetween(Date startDate, Date endDate){
         List<SensorReading> sensorReadings;
 
@@ -61,6 +34,16 @@ public class MoistureReadingRepo implements MoistureReadingRepository {
         sensorReadings = createSensorReadings(moistureReadings,moistureSensors);
 
         return sensorReadings;
+    }
+
+    private List<MoistureReading> getReadingsBetween(Date startDate, Date endDate) {
+
+        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String start_date = f.format(startDate.getTime());
+        String end_date = f.format(endDate.getTime());
+
+        Collection<MoistureReading> moistureSensors = entityManager.createQuery("from moisturereading WHERE time >= '"+start_date+"' AND time <= '"+end_date+"'", MoistureReading.class).getResultList();
+        return new ArrayList<>(moistureSensors);
     }
 
     private List<SensorReading> createSensorReadings(List<MoistureReading> moistureReadings, List<MoistureSensor> moistureSensors){
