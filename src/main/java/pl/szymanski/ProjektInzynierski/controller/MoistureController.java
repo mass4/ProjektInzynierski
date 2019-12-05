@@ -14,27 +14,23 @@ public class MoistureController {
     @Autowired
     private MoistureSensorRepo moistureSensorRepo;
 
-    @CrossOrigin(origins = "*")
     @GetMapping
     public List<MoistureSensor> getAll(){
         return moistureSensorRepo.getAllSensors();
     }
 
-    @CrossOrigin(origins = "*")
     @PostMapping
     public boolean addSensor(@RequestBody MoistureSensor moistureSensor) {
         moistureSensorRepo.createSensor(moistureSensor);
         return true;
     }
 
-    @CrossOrigin(origins = "*")
     @GetMapping(value = "/{id}")
     public MoistureSensor getById(@PathVariable Long id){
         MoistureSensor moistureSensor = moistureSensorRepo.getSensor(id);
         return moistureSensor;
     }
 
-    @CrossOrigin(origins = "*")
     @PutMapping(value="/{id}")
     public boolean updateSensor(@PathVariable Long id, @RequestBody MoistureSensor moistureSensor){
         moistureSensor.setId(id);
@@ -42,7 +38,6 @@ public class MoistureController {
         return true;
     }
 
-    @CrossOrigin(origins = "*")
     @DeleteMapping(value = "/{id}")
     public boolean deleteSensor(@PathVariable Long id){
         MoistureSensor moistureSensor = moistureSensorRepo.getSensor(id);

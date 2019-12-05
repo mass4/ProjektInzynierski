@@ -14,27 +14,23 @@ public class TemperatureController {
     @Autowired
     private TemperatureSensorRepo temperatureSensorRepo;
 
-    @CrossOrigin(origins = "*")
     @GetMapping
     public List<TemperatureSensor> getAll(){
         return temperatureSensorRepo.getAllSensors();
     }
 
-    @CrossOrigin(origins = "*")
     @PostMapping
     public boolean addSensor(@RequestBody TemperatureSensor temperatureSensor) {
         temperatureSensorRepo.createSensor(temperatureSensor);
         return true;
     }
 
-    @CrossOrigin(origins = "*")
     @GetMapping(value = "/{id}")
     public TemperatureSensor getById(@PathVariable Long id){
         TemperatureSensor temperatureSensor = temperatureSensorRepo.getSensor(id);
         return temperatureSensor;
     }
 
-    @CrossOrigin(origins = "*")
     @PutMapping(value="/{id}")
     public boolean updateSensor(@PathVariable Long id, @RequestBody TemperatureSensor temperatureSensor){
         temperatureSensor.setId(id);
@@ -42,7 +38,6 @@ public class TemperatureController {
         return true;
     }
 
-    @CrossOrigin(origins = "*")
     @DeleteMapping(value = "/{id}")
     public boolean deleteSensor(@PathVariable Long id){
         TemperatureSensor temperatureSensor = temperatureSensorRepo.getSensor(id);

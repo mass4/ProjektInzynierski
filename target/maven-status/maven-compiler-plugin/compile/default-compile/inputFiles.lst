@@ -1,13 +1,9 @@
-D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\Starter.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\model\SensorReading.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\controller\TemperatureController.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\model\MoistureReading.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\config\Config.java
-D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\controller\BackendTemperatureController.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\model\MoistureSensor.java
-D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\controller\BackendMoistureController.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\repository\MoistureSensorRepository.java
-D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\controller\BackendMoistureReadingController.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\repository\MoistureReadingRepo.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\repository\MoistureSensorRepo.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\repository\TemperatureSensorRepo.java
@@ -15,7 +11,6 @@ D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\repository\TemperatureReadingRepo.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\repository\MoistureReadingRepository.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\model\SingleReading.java
-D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\controller\BackendTemperatureReadingController.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\model\TemperatureReading.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\repository\TemperatureReadingRepository.java
 D:\IdeaProjects\ProjektInzynierski\src\main\java\pl\szymanski\ProjektInzynierski\repository\TemperatureSensorRepository.java

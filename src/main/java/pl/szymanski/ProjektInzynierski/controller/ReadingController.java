@@ -21,13 +21,11 @@ public class ReadingController {
     @Autowired
     private MoistureReadingRepo moistureReadingRepo;
 
-    @CrossOrigin(origins = "*")
     @GetMapping(value = "/temperature/{startDate}/{endDate}")
     public List<SensorReading> getTemperatureBetween(@PathVariable("startDate") Date startDate, @PathVariable("endDate") Date endDate) {
         return temperatureReadingRepo.getSensorReadingsBetween(startDate,endDate);
     }
 
-    @CrossOrigin(origins = "*")
     @GetMapping(value = "/moisture/{startDate}/{endDate}")
     public List<SensorReading> getMoistureBetween(@PathVariable("startDate") Date startDate, @PathVariable("endDate") Date endDate) {
         return moistureReadingRepo.getSensorReadingsBetween(startDate,endDate);
