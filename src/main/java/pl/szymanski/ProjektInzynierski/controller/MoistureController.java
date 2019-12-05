@@ -8,7 +8,7 @@ import pl.szymanski.ProjektInzynierski.repository.MoistureSensorRepo;
 import java.util.List;
 
 @RestController
-@RequestMapping("/sensor/moisture")
+@RequestMapping("api/sensor/moisture")
 public class MoistureController {
 
     @Autowired

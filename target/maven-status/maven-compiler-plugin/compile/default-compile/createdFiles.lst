@@ -1,5 +1,4 @@
 pl\szymanski\ProjektInzynierski\config\Config$1.class
-pl\szymanski\ProjektInzynierski\controller\GraphController.class
 pl\szymanski\ProjektInzynierski\controller\ReadingController.class
 pl\szymanski\ProjektInzynierski\repository\MoistureReadingRepository.class
 pl\szymanski\ProjektInzynierski\controller\BackendTemperatureController.class

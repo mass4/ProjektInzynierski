@@ -8,7 +8,7 @@ import pl.szymanski.ProjektInzynierski.repository.TemperatureSensorRepo;
 import java.util.List;
 
 @RestController
-@RequestMapping("/sensor/temperature")
+@RequestMapping("api/sensor/temperature")
 public class TemperatureController {
 
     @Autowired
