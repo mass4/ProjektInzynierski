@@ -3,19 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="39df4080-3b26-4e34-96d3-9c5ac8314164" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/MoistureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/MoistureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/ReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/ReadingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/TemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/TemperatureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/WebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/WebApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ProjektInzynierski.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/ReadingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/ReadingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/MoistureReadingRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/repository/TemperatureReadingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/WebApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/WebApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -53,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Projekt Inzynierski - backup 02-12-2019 23-07/ProjektInzynierski" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testchart" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -122,7 +115,7 @@
       <workItem from="1575338239857" duration="7283000" />
       <workItem from="1575463162544" duration="244000" />
       <workItem from="1575479361891" duration="80000" />
-      <workItem from="1575548830661" duration="3932000" />
+      <workItem from="1575548830661" duration="6123000" />
     </task>
     <servers />
   </component>
@@ -141,5 +134,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

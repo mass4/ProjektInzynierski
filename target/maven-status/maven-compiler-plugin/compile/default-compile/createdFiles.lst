@@ -13,6 +13,7 @@ pl\szymanski\ProjektInzynierski\controller\MoistureController.class
 pl\szymanski\ProjektInzynierski\config\Config.class
 pl\szymanski\ProjektInzynierski\model\TemperatureSensor.class
 pl\szymanski\ProjektInzynierski\model\SensorReading.class
+pl\szymanski\ProjektInzynierski\Starter.class
 pl\szymanski\ProjektInzynierski\model\MoistureReading.class
 pl\szymanski\ProjektInzynierski\repository\MoistureReadingRepo.class
 pl\szymanski\ProjektInzynierski\repository\TemperatureReadingRepository.class
