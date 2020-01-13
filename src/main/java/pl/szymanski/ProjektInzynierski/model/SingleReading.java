@@ -3,8 +3,8 @@ package pl.szymanski.ProjektInzynierski.model;
 import java.util.Date;
 
 public class SingleReading {
-    Float value;
-    Date timestamp;
+    private Float value;
+    private Date timestamp;
 
     public SingleReading() {
     }

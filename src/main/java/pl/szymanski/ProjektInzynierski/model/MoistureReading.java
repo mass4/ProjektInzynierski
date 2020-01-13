@@ -17,7 +17,7 @@ public class MoistureReading {
     private float value;
 
     @OneToOne
-    MoistureSensor sensor;
+    private MoistureSensor sensor;
 
     public MoistureReading() {
     }

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SensorReading {
-    String name;
-    List<SingleReading> readings;
+    private String name;
+    private List<SingleReading> readings;
 
     public SensorReading() {
         this.readings = new ArrayList<>();

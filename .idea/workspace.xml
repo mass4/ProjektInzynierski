@@ -3,14 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="39df4080-3b26-4e34-96d3-9c5ac8314164" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/WebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/WebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/ReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/controller/ReadingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/MoistureReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/MoistureReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SensorReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SensorReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SingleReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/model/SingleReading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/WebApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/WebApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/Starter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/ReadingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/controller/ReadingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/MoistureReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/MoistureReading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/SensorReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/SensorReading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/SingleReading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/ProjektInzynierski/model/SingleReading.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +121,8 @@
       <workItem from="1575338239857" duration="7283000" />
       <workItem from="1575463162544" duration="244000" />
       <workItem from="1575479361891" duration="80000" />
-      <workItem from="1575548830661" duration="6123000" />
+      <workItem from="1575548830661" duration="6754000" />
+      <workItem from="1578420376469" duration="2742000" />
     </task>
     <servers />
   </component>
@@ -134,21 +141,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/szymanski/ProjektInzynierski/Starter.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

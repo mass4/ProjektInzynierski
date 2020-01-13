@@ -14,10 +14,10 @@ import java.util.List;
 public class Starter implements CommandLineRunner {
 
     @Autowired
-    TemperatureSensorRepo temperatureSensorRepo;
+    private TemperatureSensorRepo temperatureSensorRepo;
 
     @Autowired
-    MoistureSensorRepo moistureSensorRepo;
+    private MoistureSensorRepo moistureSensorRepo;
 
     @Override
     public void run(String... strings) throws Exception{

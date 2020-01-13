@@ -13,8 +13,6 @@ import java.util.List;
 @RequestMapping("api/readings")
 public class ReadingController {
 
-    public static Long HOUR = 3600L*1000L;
-
     @Autowired
     private TemperatureReadingRepo temperatureReadingRepo;
 
