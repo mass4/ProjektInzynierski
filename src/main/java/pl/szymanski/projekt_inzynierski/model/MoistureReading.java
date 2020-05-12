@@ -11,11 +11,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * MoistureReading entity collect read from the moisture sensor
+ */
 @NoArgsConstructor
 @Getter
 @Setter
 @Entity(name = "moisture_reading")
 public class MoistureReading {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

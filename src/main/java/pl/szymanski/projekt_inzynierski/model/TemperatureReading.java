@@ -11,6 +11,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * TemperatureReading entity collect read from the temperature sensor
+ */
 @NoArgsConstructor
 @Getter
 @Setter

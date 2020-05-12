@@ -1,5 +1,7 @@
 package pl.szymanski.projekt_inzynierski.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,21 +12,31 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * TemperatureSensor is the entity represent physical temperature sensor
+ */
 @NoArgsConstructor
 @Getter
 @Setter
+@ApiModel(description = "Details about the TemperatureSensor")
 @Entity(name = "temperature_sensor")
 public class TemperatureSensor {
 
     @Id
+    @ApiModelProperty(notes = "Unique id of the temperature sensor")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Valid
+    @ApiModelProperty(notes = "Name of the temperature sensor")
     @NotNull(message = "Name is required.")
     private String name;
 
+    /**
+     * Address 1-Wire to which the temperature sensor in the device is connected
+     */
     @Valid
+    @ApiModelProperty(notes = "Address of the temperature sensor")
     @NotNull(message = "Address is required.")
     private String address;
 
