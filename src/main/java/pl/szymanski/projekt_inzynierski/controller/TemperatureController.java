@@ -19,6 +19,7 @@ import pl.szymanski.projekt_inzynierski.service.TemperatureSensorService;
 /**
  * REST API TemperatureController providing endpoints
  * for temperature sensor management
+ * @author Marek Szymański
  */
 @RestController
 @RequestMapping("api/sensor/temperature")

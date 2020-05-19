@@ -10,6 +10,7 @@ import pl.szymanski.projekt_inzynierski.model.TemperatureSensor;
 
 /**
  * TemperatureReadingRepository is used to connect with DB and operate on readings from temperature sensor
+ * @author Marek Szymański
  */
 public interface TemperatureReadingRepository extends JpaRepository<TemperatureReading, Long> {
 

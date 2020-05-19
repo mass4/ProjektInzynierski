@@ -14,6 +14,7 @@ import pl.szymanski.projekt_inzynierski.repository.TemperatureReadingRepository;
 /**
  * TemperatureReadingService uses TemperatureReadingRepository to operate
  * on readings from the temperature sensor provided by Repository
+ * @author Marek Szymański
  */
 @RequiredArgsConstructor
 @Service

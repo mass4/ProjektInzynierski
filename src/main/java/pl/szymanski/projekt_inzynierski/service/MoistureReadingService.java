@@ -14,6 +14,7 @@ import pl.szymanski.projekt_inzynierski.repository.MoistureReadingRepository;
 /**
  * MoistureReadingService uses MoistureReadingRepository to operate
  * on readings from the moisture sensor provided by Repository
+ * @author Marek Szymański
  */
 @RequiredArgsConstructor
 @Service

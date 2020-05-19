@@ -19,6 +19,7 @@ import pl.szymanski.projekt_inzynierski.service.MoistureSensorService;
 /**
  * REST API MoistureController providing endpoints
  * for moisture sensor management
+ * @author Marek Szymański
  */
 @RestController
 @RequestMapping("api/sensor/moisture")

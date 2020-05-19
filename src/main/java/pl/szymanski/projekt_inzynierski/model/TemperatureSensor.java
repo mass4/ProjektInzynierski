@@ -8,13 +8,16 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
  * TemperatureSensor is the entity represent physical temperature sensor
+ * @author Marek Szymański
  */
+@AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter

@@ -8,6 +8,7 @@ import org.springframework.web.filter.CorsFilter;
 
 /**
  * Configuration for REST API
+ * @author Marek Szymański
  */
 @Configuration
 public class RestConfig {

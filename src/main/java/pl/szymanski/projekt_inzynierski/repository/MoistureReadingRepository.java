@@ -10,6 +10,7 @@ import java.util.List;
 
 /**
  * MoistureReadingRepository is used to connect with DB and operate on readings from moisture sensor
+ * @author Marek Szymański
  */
 public interface MoistureReadingRepository extends JpaRepository<MoistureReading, Float> {
 

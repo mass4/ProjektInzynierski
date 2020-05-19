@@ -6,6 +6,7 @@ import pl.szymanski.projekt_inzynierski.model.MoistureSensor;
 
 /**
  * MoistureSensorRepository is used to connect with DB and operate on moisture sensors
+ * @author Marek Szymański
  */
 public interface MoistureSensorRepository extends JpaRepository<MoistureSensor, Long> {
 

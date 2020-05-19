@@ -11,6 +11,7 @@ import pl.szymanski.projekt_inzynierski.service.TemperatureSensorService;
 
 /**
  * A class used to initialize a database with a list of sensors connected to a physical device
+ * @author Marek Szymański
  */
 @Component
 @RequiredArgsConstructor

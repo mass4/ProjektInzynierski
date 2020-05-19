@@ -5,15 +5,18 @@ import io.swagger.annotations.ApiModelProperty;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
 /**
  * SensorReading collect readings to ArrayList from sensor
+ * @author Marek Szymański
  */
 @AllArgsConstructor
 @Getter
 @Setter
+@EqualsAndHashCode
 @ApiModel(description = "Details about the SensorReading")
 public class SensorReading {
 

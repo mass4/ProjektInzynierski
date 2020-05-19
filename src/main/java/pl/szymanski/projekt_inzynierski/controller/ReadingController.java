@@ -3,6 +3,7 @@ package pl.szymanski.projekt_inzynierski.controller;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ import pl.szymanski.projekt_inzynierski.service.TemperatureReadingService;
 /**
  * REST API ReadingController providing endpoints
  * for managing sensor reading
+ * @author Marek Szymański
  */
 @RestController
 @RequestMapping("api/readings")
@@ -38,9 +40,9 @@ public class ReadingController {
             response = SensorReading.class,
             responseContainer = "List")
     public List<SensorReading> getTemperatureBetween(@ApiParam(value = "You need to provide start Date", required = true)
-                                                     @PathVariable("startDate") Date startDate,
+                                                     @PathVariable("startDate") @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'") Date startDate,
                                                      @ApiParam(value = "You need to provide end Date", required = true)
-                                                     @PathVariable("endDate") Date endDate) {
+                                                     @PathVariable("endDate") @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'") Date endDate) {
         return temperatureReadingService.getSensorReadingsBetween(startDate, endDate);
     }
 
@@ -57,9 +59,9 @@ public class ReadingController {
             response = SensorReading.class,
             responseContainer = "List")
     public List<SensorReading> getMoistureBetween(@ApiParam(value = "You need to provide start Date", required = true)
-                                                  @PathVariable("startDate") Date startDate,
+                                                  @PathVariable("startDate") @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'") Date startDate,
                                                   @ApiParam(value = "You need to provide end Date", required = true)
-                                                  @PathVariable("endDate") Date endDate) {
+                                                  @PathVariable("endDate") @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'") Date endDate) {
         return moistureReadingService.getSensorReadingsBetween(startDate, endDate);
     }
 }
