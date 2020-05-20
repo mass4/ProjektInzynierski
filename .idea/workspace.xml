@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39df4080-3b26-4e34-96d3-9c5ac8314164" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/aplikacja-na-urzadzeniu-mobilnym.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/app-on-mobile-device.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ProjektInzynierski Backend.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/Starter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/WebApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/config/RestConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/controller/MoistureController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/controller/ReadingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/controller/TemperatureController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/MoistureReading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/MoistureSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/SensorReading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/SingleReading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/TemperatureReading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/TemperatureSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/repository/MoistureReadingRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/repository/MoistureSensorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/repository/TemperatureReadingRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/repository/TemperatureSensorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/MoistureReadingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/MoistureSensorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/TemperatureReadingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/TemperatureSensorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/controller/MoistureControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/controller/ReadingControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/controller/TemperatureControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/service/MoistureReadingServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/service/MoistureSensorServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/service/TemperatureReadingServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/service/TemperatureSensorServiceTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="39df4080-3b26-4e34-96d3-9c5ac8314164" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +181,7 @@
       <workItem from="1589272427229" duration="8457000" />
       <workItem from="1589286643583" duration="425000" />
       <workItem from="1589922686749" duration="591000" />
-      <workItem from="1589930016722" duration="4155000" />
+      <workItem from="1589930016722" duration="4483000" />
     </task>
     <servers />
   </component>
