@@ -2,34 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39df4080-3b26-4e34-96d3-9c5ac8314164" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/aplikacja-na-urzadzeniu-mobilnym.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/app-on-mobile-device.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/config/RestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/config/RestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/controller/MoistureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/controller/MoistureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/controller/ReadingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/controller/ReadingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/controller/TemperatureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/controller/TemperatureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/MoistureReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/MoistureReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/MoistureSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/MoistureSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/SensorReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/SensorReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/SingleReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/SingleReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/TemperatureReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/TemperatureReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/TemperatureSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/model/TemperatureSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/repository/MoistureReadingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/repository/MoistureReadingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/repository/MoistureSensorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/repository/MoistureSensorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/repository/TemperatureReadingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/repository/TemperatureReadingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/repository/TemperatureSensorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/repository/TemperatureSensorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/service/MoistureReadingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/service/MoistureReadingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/service/MoistureSensorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/service/MoistureSensorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/service/TemperatureReadingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/service/TemperatureReadingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/service/TemperatureSensorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/szymanski/projekt_inzynierski/service/TemperatureSensorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/Starter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/config/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/MoistureSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/MoistureSensor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/MoistureReadingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/MoistureReadingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/TemperatureReadingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/TemperatureReadingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ProjektInzynierski-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ProjektInzynierski Backend.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/Starter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/WebApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/config/RestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/controller/MoistureController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/controller/ReadingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/controller/TemperatureController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/MoistureReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/MoistureSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/SensorReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/SingleReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/TemperatureReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/model/TemperatureSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/repository/MoistureReadingRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/repository/MoistureSensorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/repository/TemperatureReadingRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/repository/TemperatureSensorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/MoistureReadingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/MoistureSensorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/TemperatureReadingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/szymanski/projekt_inzynierski/service/TemperatureSensorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/controller/MoistureControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/controller/ReadingControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/controller/TemperatureControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/service/MoistureReadingServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/service/MoistureSensorServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/service/TemperatureReadingServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/szymanski/projekt_inzynierski/service/TemperatureSensorServiceTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +69,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1SqDYRo5MzA77dyxllITxRvmNci" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -76,7 +93,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="JUnit.TemperatureSensorServiceTest">
+  <component name="RunManager" selected="Spring Boot.WebApp">
     <configuration name="MoistureReadingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjektInzynierski Backend" />
       <extension name="coverage">
@@ -152,6 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ProjektInzynierski Backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.szymanski.projekt_inzynierski.WebApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TemperatureSensorServiceTest" />
@@ -199,7 +223,8 @@
       <workItem from="1589106873266" duration="15293000" />
       <workItem from="1589272427229" duration="8457000" />
       <workItem from="1589286643583" duration="425000" />
-      <workItem from="1589922686749" duration="316000" />
+      <workItem from="1589922686749" duration="591000" />
+      <workItem from="1589930016722" duration="4155000" />
     </task>
     <servers />
   </component>
@@ -218,6 +243,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="170" key="#MoistureSensorServiceTest.get_all_test" timestamp="1589280448214">
@@ -256,50 +284,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589063715133" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1589923170856">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1589932093400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053764058" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589923170856" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1589923170856">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589932093400" />
+    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1589932093400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053764058" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589923170856" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1589923170856">
+    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589932093400" />
+    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1589932093400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053764058" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589923170856" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1589923170856">
+    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589932093400" />
+    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1589932093400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053764058" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589923170856" />
-    <state width="1877" height="159" key="GridCell.Tab.1.bottom" timestamp="1589281608216">
+    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589932093400" />
+    <state width="1877" height="301" key="GridCell.Tab.1.bottom" timestamp="1589932093401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053764058" />
-    <state width="1877" height="159" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589281608216" />
-    <state width="1877" height="159" key="GridCell.Tab.1.center" timestamp="1589281608216">
+    <state width="1877" height="301" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589932093401" />
+    <state width="1877" height="301" key="GridCell.Tab.1.center" timestamp="1589932093401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053764058" />
-    <state width="1877" height="159" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589281608215" />
-    <state width="1877" height="159" key="GridCell.Tab.1.left" timestamp="1589281608215">
+    <state width="1877" height="301" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589932093401" />
+    <state width="1877" height="301" key="GridCell.Tab.1.left" timestamp="1589932093400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053764058" />
-    <state width="1877" height="159" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589281608215" />
-    <state width="1877" height="159" key="GridCell.Tab.1.right" timestamp="1589281608216">
+    <state width="1877" height="301" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589932093400" />
+    <state width="1877" height="301" key="GridCell.Tab.1.right" timestamp="1589932093401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053764058" />
-    <state width="1877" height="159" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589281608216" />
+    <state width="1877" height="301" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589932093401" />
     <state x="-1139" y="134" key="SettingsEditor" timestamp="1589053181317">
       <screen x="-1280" y="0" width="1280" height="984" />
     </state>
     <state x="-1139" y="134" key="SettingsEditor/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1589053181317" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589930016710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589930016710" />
     <state x="537" y="530" key="extract.method.dialog" timestamp="1589063221575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -312,17 +344,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1589125687469" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/szymanski/projekt_inzynierski/service/MoistureSensorServiceTest.java</url>
-          <line>25</line>
-          <properties field="moistureSensorService" class="pl.szymanski.projekt_inzynierski.service.MoistureSensorServiceTest" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

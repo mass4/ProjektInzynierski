@@ -21,6 +21,13 @@
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>projectlombok.org</id>
+            <url>https://projectlombok.org/edge-releases</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -70,6 +77,12 @@
             <artifactId>mockito-all</artifactId>
             <version>1.10.19</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>edge-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
