@@ -1,8 +1,9 @@
 package pl.szymanski.projekt_inzynierski.service;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import pl.szymanski.projekt_inzynierski.model.MoistureReading;
@@ -14,6 +15,7 @@ import pl.szymanski.projekt_inzynierski.repository.MoistureReadingRepository;
 /**
  * MoistureReadingService uses MoistureReadingRepository to operate
  * on readings from the moisture sensor provided by Repository
+ *
  * @author Marek Szymański
  */
 @RequiredArgsConstructor
@@ -46,11 +48,9 @@ public class MoistureReadingService {
      * @return List of sensor readings for all moisture sensors
      */
     private List<SensorReading> createSensorReadings(List<MoistureReading> moistureReadings, List<MoistureSensor> moistureSensors) {
-        List<SensorReading> sensorReadings = new ArrayList<>();
-
-        for (MoistureSensor moistureSensor : moistureSensors) {
-            sensorReadings.add(new SensorReading(moistureSensor.getName()));
-        }
+        List<SensorReading> sensorReadings = moistureSensors.stream()
+                .map(moistureSensor -> new SensorReading(moistureSensor.getName()))
+                .collect(Collectors.toList());
 
         return getSensorReadingsFromMoistureReading(moistureReadings, sensorReadings);
     }
@@ -63,18 +63,18 @@ public class MoistureReadingService {
      * @return List of sensor readings for all moisture sensors
      */
     private List<SensorReading> getSensorReadingsFromMoistureReading(List<MoistureReading> moistureReadings, List<SensorReading> sensorReadings) {
-        for (MoistureReading moistureReading : moistureReadings) {
-            for (SensorReading sensorReading : sensorReadings) {
-                if (moistureReading.getSensor().getName().equals(sensorReading.getName())) {
-                    float readValue = moistureReading.getValue();
-                    Date readTime = moistureReading.getTime();
+        sensorReadings.forEach(sensorReading -> collectReadings(sensorReading, moistureReadings));
 
-                    SingleReading read = new SingleReading(readValue, readTime);
-                    sensorReading.addToList(read);
-                    break;
-                }
-            }
-        }
         return sensorReadings;
+    }
+
+    private SensorReading collectReadings(SensorReading sensor, List<MoistureReading> moistureReadings) {
+        moistureReadings.stream()
+                .filter(Objects::nonNull)
+                .filter(moistureReading -> moistureReading.getSensor().getName().equals(sensor.getName()))
+                .map(moistureReading -> new SingleReading(moistureReading.getValue(), moistureReading.getTime()))
+                .forEach(sensor::addToList);
+
+        return sensor;
     }
 }
