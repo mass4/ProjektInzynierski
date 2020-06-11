@@ -25,7 +25,7 @@ Project is created in Maven with:
 * Mockito, version: 1.10.19
 
 ## Configuration
-Before you start working, the program must be configured in application.proporties that is located in: "Project Engineer/src/main/resources/".
+Before you start working, the program must be configured in application.proporties that is located in: "/src/main/resources/".
 ```
 $ spring.datasource.url=jdbc:mysql://localhost:3306/projekt_inzynierski
 $ spring.datasource.username=username
