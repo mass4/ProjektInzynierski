@@ -37,7 +37,7 @@ public class TemperatureReadingService {
         List<TemperatureReading> temperatureReadings = temperatureReadingRepository.getReadingsBetween(startDate, endDate);
         List<TemperatureSensor> temperatureSensors = temperatureSensorService.getAllSensors();
 
-        return createSensorReadings(temperatureReadings, temperatureSensors);
+        return formatDataToSensorReadings(temperatureReadings, temperatureSensors);
     }
 
     /**
@@ -47,34 +47,30 @@ public class TemperatureReadingService {
      * @param temperatureSensors  List of all moisture sensors
      * @return List of sensor readings for all temperature sensors
      */
-    private List<SensorReading> createSensorReadings(List<TemperatureReading> temperatureReadings, List<TemperatureSensor> temperatureSensors) {
+    private List<SensorReading> formatDataToSensorReadings(List<TemperatureReading> temperatureReadings, List<TemperatureSensor> temperatureSensors) {
         List<SensorReading> sensorReadings = temperatureSensors.stream()
                 .map(temperatureSensor -> new SensorReading(temperatureSensor.getName()))
                 .collect(Collectors.toList());
 
-        return getSensorReadingsFromTemperatureReading(temperatureReadings, sensorReadings);
+        sensorReadings.forEach(sensorReading -> assignReadingsToSensor(sensorReading, temperatureReadings));
+
+        return sensorReadings;
     }
 
     /**
      * This method segregates readings for individual sensors
      *
      * @param temperatureReadings Contains readings from all temperature sensors
-     * @param sensorReadings      List of all temperature sensors
-     * @return List of sensor readings for all temperature sensors
+     * @param sensorReading       Sensor for which readings should be assigned
+     * @return SensorReading with associated readings
      */
-    private List<SensorReading> getSensorReadingsFromTemperatureReading(List<TemperatureReading> temperatureReadings, List<SensorReading> sensorReadings) {
-        sensorReadings.forEach(sensorReading -> collectReadings(sensorReading, temperatureReadings));
-
-        return sensorReadings;
-    }
-
-    private SensorReading collectReadings(SensorReading sensor, List<TemperatureReading> temperatureReadings) {
+    private SensorReading assignReadingsToSensor(SensorReading sensorReading, List<TemperatureReading> temperatureReadings) {
         temperatureReadings.stream()
                 .filter(Objects::nonNull)
-                .filter(temperatureReading -> temperatureReading.getSensor().getName().equals(sensor.getName()))
+                .filter(temperatureReading -> temperatureReading.getSensor().getName().equals(sensorReading.getName()))
                 .map(temperatureReading -> new SingleReading(temperatureReading.getValue(), temperatureReading.getTime()))
-                .forEach(sensor::addToList);
+                .forEach(sensorReading::addToList);
 
-        return sensor;
+        return sensorReading;
     }
 }
